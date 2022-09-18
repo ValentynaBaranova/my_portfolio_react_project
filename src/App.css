@@ -1,9 +1,32 @@
 :root {
   --primary-color: #720261;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 .App {
   text-align: center;
+}
+
+h1 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 78px;
+  line-height: 1.8;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+p {
+  margin-top: 40px;
+  font-weight: normal;
+  font-size: 29px;
+  line-height: 30px;
 }
 
 .App-header {
@@ -19,19 +42,15 @@
 
 .container {
   width: 976px;
+  padding: 20px;
+  margin: 20px auto;
   background-color: white;
 }
 
-.left_col {
-  width: 38%;
-  float: left;
-  background-color: #ffd4f9;
+img {
+  width: 95%;
 }
 
-.right_col {
-  width: 50%;
-  float: right;
-}
 .title {
   padding: 12px;
   background-color: var(--primary-color);

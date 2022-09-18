@@ -1,4 +1,6 @@
-import Title from "./Title";
+import RightSide from "./RightSide";
+import LeftSide from "./LeftSide";
+import Head from "./Head";
 import "./App.css";
 
 function App() {
@@ -6,7 +8,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
-          <Title />
+          <Head />
+          <div className="row">
+            <RightSide />
+            <LeftSide />
+          </div>
         </div>
       </header>
     </div>
