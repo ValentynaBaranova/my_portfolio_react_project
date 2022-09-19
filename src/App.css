@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  color: black;
+  color: #260021;
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 5vw;
@@ -37,30 +37,57 @@ h3 {
 }
 
 p {
-  margin-top: 40px;
+  margin-top: 10px;
   font-weight: normal;
   font-size: 29px;
-  line-height: 30px;
 }
 
 .row {
   justify-content: center;
 }
 
-.container {
+.content {
   padding: 20px;
   margin: 20px auto !important;
   background-color: white;
+  border-radius: 10px;
+  box-shadow: -11px -6px 16px 0px #260021;
 }
 
 .head {
-  padding: 15px;
+  padding-left: 15px;
+}
+
+.my_photo {
+  border: 1px solid #260021;
+  box-shadow: 2px 2px 5px #260021;
+  transition: all 300ms ease-in-out;
+}
+
+.my_photo:hover {
+  box-shadow: none;
 }
 
 .title {
-  padding: 12px;
+  padding: 10px;
   background-color: var(--primary-color);
+  border-radius: 10px;
   margin: 15px;
+  color: white;
+  text-shadow: 3px 1px 8px;
+  font-weight: 700;
+  font-size: 20px;
+  transition: all 400ms ease-out;
+}
+
+.title:hover {
+  text-shadow: none;
+}
+
+.skills,
+.right_part {
+  text-align: left;
+  padding-left: 20px;
 }
 
 footer {
@@ -69,6 +96,13 @@ footer {
 }
 footer p {
   font-size: 16px;
+}
+
+footer a,
+.right_part a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .social_links {
@@ -82,6 +116,7 @@ footer p {
   font-size: 25px;
   border-radius: 15%;
   padding: 0 0 7px 0;
+  transition: all 400ms ease-in;
 }
 
 .social_links a:hover {
@@ -103,6 +138,16 @@ footer p {
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: 1fr 1fr;
+}
+
+.main_block {
+  color: rgb(71, 71, 71);
+  background-color: var(--secondary-color);
+}
+
+.right_part p {
+  font-size: 18px;
+  text-align: left;
 }
 
 @media (max-width: 540px) {

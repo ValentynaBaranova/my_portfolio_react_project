@@ -13,7 +13,7 @@ export default function Sertificate() {
           <a
             href="https://www.shecodes.io/certificates/d22fe54dfca830b44e3bfea2e9cafe89"
             target="_blank"
-            title="Click if wont see more"
+            title="Click if  see more"
             rel="noreferrer"
           >
             <img src={s1} alt="Responsive" className="img-fluid" />
@@ -21,7 +21,7 @@ export default function Sertificate() {
           <a
             href="https://www.shecodes.io/certificates/9bd2ca4c155c196d59b75a76f909d097"
             target="_blank"
-            title="Click if wont see more"
+            title="Click if you want more"
             rel="noreferrer"
           >
             <img src={s2} alt="Front_end" className="img-fluid" />
@@ -31,7 +31,7 @@ export default function Sertificate() {
           <a
             href="https://www.shecodes.io/certificates/bf9273a55b13e3f2e055ca527dae84f9"
             target="_blank"
-            title="Click if wont see more"
+            title="Click if you want more"
             rel="noreferrer"
           >
             <img src={s3} alt="React" className="img-fluid" />
@@ -39,7 +39,7 @@ export default function Sertificate() {
           <a
             href=".//img/s4.jpg"
             target="_blank"
-            title="Click if wont see more"
+            title="Click if you want more"
             rel="noreferrer"
           >
             <img src={s4} alt="Intermediate" className="img-fluid" />

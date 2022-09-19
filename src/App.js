@@ -9,11 +9,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="container">
+        <div className="content">
           <Head />
-          <div className="row">
-            <LeftSide />
-            <RightSide />
+          <div className="container my-5">
+            <div className="row">
+              <LeftSide />
+              <RightSide />
+            </div>
           </div>
           <Sertificate />
           <Footer />

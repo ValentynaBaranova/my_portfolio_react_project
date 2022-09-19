@@ -7,7 +7,7 @@ export default function Head() {
     <div className="head">
       <div className="row">
         <div className="col-3">
-          <img src={photo} alt="Valentyna" className="img-fluid" />
+          <img src={photo} alt="Valentyna" className="img-fluid my_photo" />
         </div>
         <div className="col-9">
           <p>👋 Hello, I am</p>
