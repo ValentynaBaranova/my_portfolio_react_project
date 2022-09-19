@@ -1,6 +1,7 @@
 import RightSide from "./RightSide";
 import LeftSide from "./LeftSide";
 import Head from "./Head";
+import Footer from "./Footer";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <RightSide />
             <LeftSide />
           </div>
+          <Footer />
         </div>
       </header>
     </div>
