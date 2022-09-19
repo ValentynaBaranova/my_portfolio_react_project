@@ -2,6 +2,7 @@ import RightSide from "./RightSide";
 import LeftSide from "./LeftSide";
 import Head from "./Head";
 import Footer from "./Footer";
+import Sertificate from "./Sertificate";
 import "./App.css";
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
         <div className="container">
           <Head />
           <div className="row">
-            <RightSide />
             <LeftSide />
+            <RightSide />
           </div>
+          <Sertificate />
           <Footer />
         </div>
       </header>

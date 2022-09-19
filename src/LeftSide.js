@@ -2,14 +2,10 @@ import React from "react";
 import "./App.css";
 
 export default function LeftSide() {
-  let leftBlocks = [
-    "SKILLS, DEVELOPMENT TOOLS",
-    "PREVIOUS EDUCATION",
-    "WORK EXPERIENCE",
-  ];
+  let blocks = ["PROFILE", "MY CONTACTS", "PERSONAL INTERESTS"];
   return (
-    <div className="col">
-      {leftBlocks.map(function (block, index) {
+    <div className="col-md-5">
+      {blocks.map(function (block, index) {
         return (
           <div key={index} className="title">
             {block}

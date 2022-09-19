@@ -11,13 +11,14 @@ import {
 export default function Footer() {
   return (
     <footer>
-      <div className="social_links">
+      <div className="social_links row">
         <h3>You can contact me in any convenient way 😉</h3>
         <a
           href="mailto:valentynabaranova5@gmail.com"
           title="Send me email"
           target="_blank"
           rel="noreferrer"
+          className="col-1"
         >
           <FaRegEnvelope />
         </a>
@@ -26,6 +27,7 @@ export default function Footer() {
           title="You can contact with Baranova in Viber"
           target="_blank"
           rel="noreferrer"
+          className="col-1"
         >
           <FaViber />
         </a>
@@ -34,6 +36,7 @@ export default function Footer() {
           title="You can contact with Baranova in Telegram"
           target="_blank"
           rel="noreferrer"
+          className="col-1"
         >
           <FaTelegram />
         </a>
@@ -42,6 +45,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
           title="My profile on Linkedin"
+          className="col-1"
         >
           <FaLinkedin size="25" />
         </a>
@@ -50,6 +54,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
           title="My profile on GitHab"
+          className="col-1"
         >
           <FaGithub size="25" />
         </a>
