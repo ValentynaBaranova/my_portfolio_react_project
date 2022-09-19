@@ -22,7 +22,7 @@ export default function Footer() {
           <FaRegEnvelope />
         </a>
         <a
-          href="mailto:valentynabaranova5@gmail.com"
+          href="https://tinyurl.com/2p8z86u6"
           title="You can contact with Baranova in Viber"
           target="_blank"
           rel="noreferrer"
