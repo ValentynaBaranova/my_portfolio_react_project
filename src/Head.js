@@ -9,7 +9,7 @@ export default function Head() {
         <div className="col-3">
           <img src={photo} alt="Valentyna" className="img-fluid my_photo" />
         </div>
-        <div className="col-8">
+        <div className="col-9">
           <h4>👋 Hello, I am</h4>
           <h1>Valentyna Baranova</h1>
           <h2>Frontent developer based in Vinnytsya, Ukraine</h2>

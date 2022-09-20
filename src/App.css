@@ -19,7 +19,7 @@ h1 {
   color: #260021;
   font-family: var(--heading-font-family);
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 60px;
   line-height: 1.8;
 }
 
@@ -37,7 +37,7 @@ h3 {
 }
 
 h4 {
-  font-size: 3vw;
+  font-size: 36px;
   font-family: var(--default-font-family);
   font-weight: bold;
   margin-bottom: 10px;
@@ -166,7 +166,11 @@ footer a,
 }
 
 @media screen and (max-width: 780px) {
-  h2 {
+  h1 {
+    font-size: 40px;
+  }
+  h2,
+  h4 {
     font-size: 24px;
   }
   h3 {
@@ -218,9 +222,15 @@ footer a,
     font-size: 12px;
   }
   .content {
-    padding: 20px 0;
+    padding: 10px 0;
   }
-  .slider {
-    padding-left: 10px;
+  .slider,
+  .my_photo {
+    margin-left: 5px;
+  }
+
+  footer p {
+    font-size: 14px;
+    padding-left: 0;
   }
 }
