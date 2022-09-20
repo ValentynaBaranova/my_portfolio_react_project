@@ -94,7 +94,6 @@ p {
 .right_part,
 .main_block {
   text-align: left;
-  padding-left: 20px;
 }
 
 footer {
@@ -182,13 +181,36 @@ footer a,
 @media screen and (max-width: 540px) {
   h1 {
     line-height: 1;
-    padding-bottom: 10px;
+    padding-bottom: 0;
     font-size: 6vw;
   }
+
   h2 {
     font-size: 17px;
   }
   h3 {
     font-size: 24px;
+  }
+  h4 {
+    margin-bottom: 0;
+  }
+
+  .project a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .project a {
+    font-size: 12px;
+  }
+  .content {
+    padding: 0;
   }
 }
