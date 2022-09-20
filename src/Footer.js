@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="social_links row">
-        <h3>You can contact me in any convenient way 😉</h3>
+        <h3>You can contact me 😉</h3>
         <a
           href="mailto:valentynabaranova5@gmail.com"
           title="Send me email"

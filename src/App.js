@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <div className="content">
           <Head />
-          <div className="container my-5">
+          <div className="container my-sm-4">
             <div className="row">
               <LeftSide />
               <RightSide />

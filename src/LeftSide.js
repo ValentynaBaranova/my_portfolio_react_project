@@ -1,35 +1,69 @@
 import React from "react";
 import "./App.css";
 
-export default function LeftSide() {
+export default function RightSide() {
   return (
-    <div className="col-md-4 main_block">
-      <div className="title">SKILLS</div>
-      <div className="skills">
-        <p>Hard Skills:</p>
-        <ul>
-          <li>Front-End Development</li>
-          <li>React Native</li>
-          <li>HTML5</li>
-          <li>Cascading Style Sheets (CSS)</li>
-          <li>Responsive Web Design</li>
-          <li>Landing Pages</li>
-          <li> SQL</li>
-          <li>Bootstrap</li>
-          <li>GitHub Web Services API</li>
-        </ul>
-        <p>Soft Skills:</p>
-        <ul>
-          <li>Adapted, flexible</li>
-          <li>Dependable</li>
-          <li>Determined</li>
-          <li>Not experienced but very motivated</li>
-          <li>Reliable</li>
-          <li>Problem-solver</li>
-        </ul>
+    <div className="col-md-7 right_part">
+      <div className="title">PROFILE</div>
+      <p>
+        Hello! My name is Valentina. I live in Ukraine. I recently graduated
+        from Frontend studies with the study of React. Delighted with React. I
+        wrote several applications on it. I continue to work on my projects and
+        look for new on Freelance. I am improving my English. Now I have an
+        Intermediate level. I'm not afraid to speak English. I consider myself
+        purposeful. I learn easily. I'm a crazy perfectionist and I hate being
+        late for work and I work diligently. I will be useful in any company
+      </p>
+      <div className="title">PREVIOUS EDUCATION</div>
+      <p>
+        Successfully graduated from{" "}
+        <a
+          href="https://www.shecodes.io/graduates/48282-valentyna-baranova"
+          target="_blank"
+          title="Click if you want more"
+          rel="noreferrer"
+        >
+          SheCodes Foundation
+        </a>
+      </p>
+      <ul>
+        <li>SheCodes Basics</li>
+        <li>SheCodes Plus (Frontend)</li>
+        <li> SheCodes Responsive</li>
+        <li>SheCodes React</li>
+      </ul>
+      <p>
+        I continue to study English at{" "}
+        <a
+          href="https://study-less.school/"
+          target="_blank"
+          title="Click if you want more"
+          rel="noreferrer"
+        >
+          Study Less School
+        </a>
+      </p>
+      <div className="title">WORK EXPERIENCE</div>
+      <p>These are my last 2 real projects using popular APIs:</p>
+      <div className="project">
+        <a
+          href="https://kaleidoscopic-hamster-ec0d94.netlify.app/"
+          target="_blank"
+          title="Click if you want see Weather Project"
+          rel="noreferrer"
+        >
+          See my project React Weather Project 👆
+        </a>
+        <br />
+        <a
+          href="https://grand-tarsier-f22d60.netlify.app/"
+          target="_blank"
+          title="Click if you want see Dictionary Project"
+          rel="noreferrer"
+        >
+          See my project React Dictionary Project 👆
+        </a>
       </div>
-      <div className="title">PERSONAL INTERESTS</div>
-      <span>I like traveling, cats 😻 and dark chocolate 🍫 </span>
     </div>
   );
 }
