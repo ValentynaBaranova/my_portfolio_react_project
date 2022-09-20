@@ -27,7 +27,7 @@ export default function LeftSide() {
           <li>Adapted, flexible</li>
           <li>Dependable</li>
           <li>Determined</li>
-          <li>Not experienced but very motivated</li>
+          <li>Motivated</li>
           <li>Reliable</li>
           <li>Problem-solver</li>
         </ul>
