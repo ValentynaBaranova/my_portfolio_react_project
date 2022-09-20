@@ -43,6 +43,9 @@ export default function RightSide() {
           Study Less School
         </a>
       </p>
+      <ul>
+        <li>B1 Intermediate</li>
+      </ul>
       <div className="title">WORK EXPERIENCE</div>
       <p>These are my last 2 real projects using popular APIs:</p>
       <div className="project">
