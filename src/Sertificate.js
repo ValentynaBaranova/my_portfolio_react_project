@@ -1,8 +1,8 @@
 import React from "react";
-import s1 from ".//img/s1.png";
-import s2 from ".//img/s2.png";
-import s3 from ".//img/s3.png";
-import s4 from ".//img/s4.jpg";
+import s1 from "./img/s1.png";
+import s2 from "./img/s2.png";
+import s3 from "./img/s3.png";
+import s4 from "./img/s4.jpg";
 
 export default function Sertificate() {
   return (
@@ -37,7 +37,7 @@ export default function Sertificate() {
             <img src={s3} alt="React" className="img-fluid" />
           </a>
           <a
-            href=".//img/s4.jpg"
+            href={s4}
             target="_blank"
             title="Click if you want more"
             rel="noreferrer"
