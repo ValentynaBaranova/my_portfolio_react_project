@@ -18,7 +18,8 @@ export default function LeftSide() {
           <li>Landing Pages</li>
           <li> SQL</li>
           <li>Bootstrap</li>
-          <li>GitHub Web Services API</li>
+          <li>GitHub Web </li>
+          <li> Services API</li>
         </ul>
         <p>
           <strong>Soft Skills:</strong>

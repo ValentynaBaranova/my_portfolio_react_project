@@ -7,12 +7,14 @@ export default function RightSide() {
       <div className="title">PROFILE</div>
       <p>
         Hello! My name is Valentina. I live in Ukraine. I recently graduated
-        from Frontend studies with the study of React. Delighted with React. I
+        from Front-end studies with the study of React. Delighted with React. I
         wrote several applications on it. I continue to work on my projects and
-        look for new on Freelance. I am improving my English. Now I have an
-        Intermediate level. I'm not afraid to speak English. I consider myself
-        purposeful. I learn easily. I'm a crazy perfectionist and I hate being
-        late for work and I work diligently. I will be useful in any company
+        look for new on Freelance. Looking for a job trainee or junior Front-end
+        Developer (React). I am improving my English. Now I have an Intermediate
+        level. I consider myself purposeful. I learn easily. I'm a crazy
+        perfectionist.. Able to effectively self-manage during independent
+        projects, as well as collaborate in a team setting. I will be useful in
+        any company.
       </p>
       <div className="title">PREVIOUS EDUCATION</div>
       <p>
